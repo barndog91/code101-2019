@@ -21,17 +21,17 @@ header {
 nav {
   background-color: yellow;
 }
-ul {
+nav ul {
   margin: 0;
 }
 
-li {
+nav li {
 
 
   display: inline-block;
 
 }
-a {
+nav a {
   color: black;
   text-decoration: none; /* Removes Underline */
   padding: 0.5em 1em;
@@ -39,7 +39,48 @@ a {
   font-weight: bold;
 }
 
-a:hover {
-  color: red;
+nav a:hover {
+  color: #4289f4;
 
+}
+
+#calendar {
+  float: left;
+  padding: 0.75em;
+  width: 350px;
+  color: white;
+}
+
+#calendar ul {
+  list-style: none;
+  padding-left: 0.5em;
+}
+#calendar strong {
+  color: rgb(127, 196, 255);
+}
+section {
+  background-color: #4289f4;
+  margin-left: 350px;
+  padding: 0.5em;
+  overflow:auto;
+
+}
+
+h2, h3 {
+  margin: 0;
+  color: white;
+
+}
+
+main {
+  font-family: 'Lora', serif;
+}
+
+h2 {
+  margin-bottom .05;
+}
+
+.left {
+  float: left;
+  margin-right: 1em;
 }
