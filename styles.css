@@ -77,10 +77,11 @@ main {
 }
 
 h2 {
-  margin-bottom .05;
+  margin-bottom .05em;
 }
 
 .left {
   float: left;
   margin-right: 1em;
+  margin-bottom: .5em;
 }
